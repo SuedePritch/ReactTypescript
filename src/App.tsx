@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import { Input } from './components/Input';
+import { Container } from './components/Container';
+// import { Input } from './components/Input';
 // import { Button } from './components/Button';
 // import { Greet } from './components/Greet';
 // import { Person } from './components/Person';
@@ -32,8 +33,7 @@ function App() {
 // ]
   return (
     <div className="App">
-      <Input value='' handleChange={(event) => console.log(event)}></Input>
-      
+      <Container styles={{border: '13px solid black', padding:'2rem'}}></Container>
       
       
       
@@ -42,6 +42,7 @@ function App() {
       {/* <Button handleClick={(event, id)=>{
         console.log('ButtonClicked', event, id)
       }} />
+      <Input value='' handleChange={(event) => console.log(event)}></Input>
       <Oscar>
         <Heading>Placeholder Text</Heading>
       </Oscar>
