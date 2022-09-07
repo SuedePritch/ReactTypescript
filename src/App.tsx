@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import {User} from './State/User' 
-import { LoggedIn } from './State/LoggedIn';
-import { Container } from './components/Container';
+import {Counter} from './State/Counter'
+// import {User} from './State/User' 
+// import { LoggedIn } from './State/LoggedIn';
+// import { Container } from './components/Container';
 // import { Input } from './components/Input';
 // import { Button } from './components/Button';
 // import { Greet } from './components/Greet';
@@ -35,16 +36,16 @@ function App() {
 // ]
   return (
     <div className="App">
-      <Container styles={{border: '8px solid black', padding:'1rem', margin:'1rem'}}></Container>
-      <LoggedIn></LoggedIn>
-      <User/>
-      
+      <Counter></Counter>
       
       
       
       {/* <Button handleClick={(event, id)=>{
         console.log('ButtonClicked', event, id)
       }} />
+      <Container styles={{border: '8px solid black', padding:'1rem', margin:'1rem'}}></Container>
+      <LoggedIn></LoggedIn>
+      <User/>
       <Input value='' handleChange={(event) => console.log(event)}></Input>
       <Oscar>
         <Heading>Placeholder Text</Heading>
