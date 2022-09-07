@@ -33,7 +33,7 @@ function App() {
 // ]
   return (
     <div className="App">
-      <Container styles={{border: '13px solid black', padding:'2rem'}}></Container>
+      <Container styles={{border: '8px solid black', padding:'1rem', margin:'1rem'}}></Container>
       
       
       
