@@ -1,6 +1,4 @@
+import { Name } from "./Person.Types"
 export type PersonListProps = {
-    personList:{
-        first:string
-        last: string
-    }[]
+    personList: Name[]
 }
