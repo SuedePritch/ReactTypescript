@@ -1,4 +1,4 @@
-import { GreetProps } from "../Types/Greet.Types"
+import { GreetProps } from "./Types/Greet.Types"
 
 export const Greet = (props: GreetProps) =>{
     const {messageCount = 0} = props

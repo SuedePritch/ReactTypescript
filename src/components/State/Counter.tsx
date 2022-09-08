@@ -12,6 +12,8 @@ type ResetAction = {
     type:'reset'
     payload?: number
 }
+
+//Discriminated Union
 type CounterAction = UpdateAction | ResetAction
 
 const initialState = {count:0}

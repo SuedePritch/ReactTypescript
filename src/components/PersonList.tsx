@@ -1,4 +1,4 @@
-import { PersonListProps } from "../Types/PersonList.Types"
+import { PersonListProps } from "./Types/PersonList.Types"
 export const PersonList = (props: PersonListProps) =>{
     return(
         <div>

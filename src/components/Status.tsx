@@ -1,4 +1,4 @@
-import { StatusProps } from "../Types/Status.Types";
+import { StatusProps } from "./Types/Status.Types";
 export const Status = (props: StatusProps) =>{
     let message;
     if(props.status === 'loading'){

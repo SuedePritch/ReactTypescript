@@ -1,5 +1,5 @@
 import React from "react"
-import { InputProps } from "../Types/Input.Types"
+import { InputProps } from "./Types/Input.Types"
 
 export const Input = ({value, handleChange}: InputProps) =>{
     return(

@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import {Counter} from './State/Counter'
+
+import { ThemeContextProvider } from './components/Context/ThemeContext';
+import { Box } from './components/Context/Box';
+// import {Counter} from './components/State/Counter'
 // import {User} from './State/User' 
 // import { LoggedIn } from './State/LoggedIn';
 // import { Container } from './components/Container';
@@ -36,13 +39,15 @@ function App() {
 // ]
   return (
     <div className="App">
-      <Counter></Counter>
-      
+      <ThemeContextProvider>
+        <Box/>
+      </ThemeContextProvider>
       
       
       {/* <Button handleClick={(event, id)=>{
         console.log('ButtonClicked', event, id)
       }} />
+      <Counter></Counter>
       <Container styles={{border: '8px solid black', padding:'1rem', margin:'1rem'}}></Container>
       <LoggedIn></LoggedIn>
       <User/>
